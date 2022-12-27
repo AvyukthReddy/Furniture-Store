@@ -1,0 +1,51 @@
+.Dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-filter {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-filter-btn {
+    margin-top: 20px;
+}
+
+.dashboard-stats-tables {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px 0;
+    justify-content: center;
+}
+
+.dashboard-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.dashboard-stat-tbl {
+    margin-top: 15px;
+    background-color: #eee;
+}
+
+.dashboard-stat-tbl thead tr th, .dashboard-stat-tbl tbody tr td {
+    padding: 10px 7px;
+    text-align: left;
+}
+
+.dashboard-stat-tbl td {
+    margin: 0;
+    border-top: 1px solid #fafafa;
+}

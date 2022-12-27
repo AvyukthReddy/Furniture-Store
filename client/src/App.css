@@ -1,0 +1,11 @@
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-content {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}

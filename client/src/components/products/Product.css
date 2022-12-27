@@ -1,0 +1,21 @@
+.Product {
+    display: flex;
+    gap: 20px;
+}
+
+.product-img {
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;  
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-content div {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+.Nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #dbdbdb;
+    padding: 0 1.5rem 0 0;
+}
+
+.Nav ul {
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+    gap: 25px;
+}
+
+.Nav ul li {
+    list-style: none;
+}
+
+.Nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Nav .app-title{
+    margin-right: auto;
+    font-weight: bold;
+}

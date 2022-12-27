@@ -1,0 +1,80 @@
+.Orders {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.orders-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.orders-header, .Order-row {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 15px 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.orders-header {
+    font-weight: 700;
+}
+
+.orders-header div, .Order-row div {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.order-date, .order-status, .order-name, .order-update {
+    flex-grow: 2 !important;
+}
+
+.order-details-btn {
+    background-color: #e5e5e5;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.order-update-btn {
+    background-color: #e5e5e5;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.success-message {
+    color: rgb(7, 99, 7);
+    text-align: center;
+}
+
+.failed-message {
+    color: rgb(152, 20, 20);
+    text-align: center;
+}
+
+.OrdersFilter {
+    display: flex;
+    gap: 20px; 
+    padding: 15px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.OrdersFilter-btn {
+    margin-top: 20px;
+}
+
+.OrdersFilter .element {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,29 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #dbdbdb;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-price {
+    font-weight: 600;
+}
+
+.card-price span {
+    color: #7b7777;
+}

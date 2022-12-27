@@ -1,0 +1,42 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+}
+
+.user-header {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.signup h3 {
+    margin: 5px;
+}
+
+.signup input {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bab8b8;
+}
+
+.signup-btn {
+    justify-content: center;
+    cursor: pointer;
+}
+
+.selected {
+    border-bottom: 5px solid #989595;
+}
+
+.user-header a {
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+}
